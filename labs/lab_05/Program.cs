@@ -12,7 +12,6 @@ namespace lab_05
         {
         
             //GameManager.TimerCounter(20);
-          
             GamePlay.AddKey();
         }
     }
@@ -39,18 +38,16 @@ namespace lab_05
         // code for letters in a string to an alphabet in an array of chars. 
         static string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         public static char[] alphaLetters = alphabet.ToCharArray();
-
         // method adds keys entered to an array and checks whether its in the the alphabet array.
         public static void AddKey()
         {
-            var inputLet;
             List<char> letters = new List<char>();
             for (int i = 0; i < 20; i++)
             {
-                inputLet = Console.ReadLine().ToString();
-                letters.Add(inputLet.ToCharArray());          
+                letters.Add(Console.ReadKey().KeyChar);
+           
             }
-            Console.WriteLine("current size of the alphabet size is" + letters.Capacity());
+            Console.WriteLine("current size of the alphabet size is" + letters.ToString());
         }
         public static void CheckLetter()
         {
