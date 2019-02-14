@@ -1,0 +1,7 @@
+C:\2019-02-c-sharp-labs\labs\labs_104_array_list_queue_stack_dict_01\bin\Debug\labs_104_array_list_queue_stack_dict_01.exe.config
+C:\2019-02-c-sharp-labs\labs\labs_104_array_list_queue_stack_dict_01\bin\Debug\labs_104_array_list_queue_stack_dict_01.exe
+C:\2019-02-c-sharp-labs\labs\labs_104_array_list_queue_stack_dict_01\bin\Debug\labs_104_array_list_queue_stack_dict_01.pdb
+C:\2019-02-c-sharp-labs\labs\labs_104_array_list_queue_stack_dict_01\obj\Debug\labs_104_array_list_queue_stack_dict_01.csprojAssemblyReference.cache
+C:\2019-02-c-sharp-labs\labs\labs_104_array_list_queue_stack_dict_01\obj\Debug\labs_104_array_list_queue_stack_dict_01.csproj.CoreCompileInputs.cache
+C:\2019-02-c-sharp-labs\labs\labs_104_array_list_queue_stack_dict_01\obj\Debug\labs_104_array_list_queue_stack_dict_01.exe
+C:\2019-02-c-sharp-labs\labs\labs_104_array_list_queue_stack_dict_01\obj\Debug\labs_104_array_list_queue_stack_dict_01.pdb

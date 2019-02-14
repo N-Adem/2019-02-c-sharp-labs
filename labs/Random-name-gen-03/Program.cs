@@ -24,9 +24,9 @@ namespace Random_name_gen_03
             Dictionary<string, string> personList = new Dictionary<string, string>();
             personList.Add(newName, newAge);
            // personList.Add(newName, newAge);
-            Console.WriteLine(personList);          
+           // Console.WriteLine($"name: {newName} age: {newAge} Output Test: {personList}");          
         }
-    }
+    }   
     class Parent
     {
         private int age;
@@ -64,5 +64,6 @@ namespace Random_name_gen_03
             DateTime Birthdate = new DateTime(year, month, date, 0, 0, 0);
             return Birthdate;
         }
+
     }
 }
