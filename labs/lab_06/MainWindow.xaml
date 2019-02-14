@@ -1,0 +1,36 @@
+﻿<Window x:Class="lab_06.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab_06"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="Auto" Width="Auto" Background="BurlyWood">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Button x:Name="ButtonStart" Background="#eaaaad" Grid.Column="1" Grid.Row="1" Content="Play" Click="ButtonStart_Click"/>
+        <TextBox x:Name="textBoxTotalTime" Grid.Row="1" Grid.Column="3" Background="BlanchedAlmond"/>
+       
+      
+        <RichTextBox x:Name="TextInputCharacter" Background="#97efec" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="3" />
+        <Label x:Name="labelscore" Background="Cyan" Grid.Column="1" Grid.Row="4" /> 
+
+    </Grid >
+        
+</Window>

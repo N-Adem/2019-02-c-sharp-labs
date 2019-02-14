@@ -1,0 +1,15 @@
+C:\labs\lab_06\bin\Debug\lab_06.exe.config
+C:\labs\lab_06\bin\Debug\lab_06.exe
+C:\labs\lab_06\bin\Debug\lab_06.pdb
+C:\labs\lab_06\obj\Debug\lab_06.csprojAssemblyReference.cache
+C:\labs\lab_06\obj\Debug\MainWindow.g.cs
+C:\labs\lab_06\obj\Debug\App.g.cs
+C:\labs\lab_06\obj\Debug\lab_06_MarkupCompile.cache
+C:\labs\lab_06\obj\Debug\lab_06_MarkupCompile.lref
+C:\labs\lab_06\obj\Debug\MainWindow.baml
+C:\labs\lab_06\obj\Debug\lab_06.g.resources
+C:\labs\lab_06\obj\Debug\lab_06.Properties.Resources.resources
+C:\labs\lab_06\obj\Debug\lab_06.csproj.GenerateResource.cache
+C:\labs\lab_06\obj\Debug\lab_06.csproj.CoreCompileInputs.cache
+C:\labs\lab_06\obj\Debug\lab_06.exe
+C:\labs\lab_06\obj\Debug\lab_06.pdb

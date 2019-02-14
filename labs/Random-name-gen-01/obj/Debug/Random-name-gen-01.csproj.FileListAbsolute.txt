@@ -1,0 +1,7 @@
+C:\2019-02-c-sharp-labs\labs\Random-name-gen-01\bin\Debug\Random-name-gen-01.exe.config
+C:\2019-02-c-sharp-labs\labs\Random-name-gen-01\bin\Debug\Random-name-gen-01.exe
+C:\2019-02-c-sharp-labs\labs\Random-name-gen-01\bin\Debug\Random-name-gen-01.pdb
+C:\2019-02-c-sharp-labs\labs\Random-name-gen-01\obj\Debug\Random-name-gen-01.csproj.CoreCompileInputs.cache
+C:\2019-02-c-sharp-labs\labs\Random-name-gen-01\obj\Debug\Random-name-gen-01.exe
+C:\2019-02-c-sharp-labs\labs\Random-name-gen-01\obj\Debug\Random-name-gen-01.pdb
+C:\2019-02-c-sharp-labs\labs\Random-name-gen-01\obj\Debug\Random-name-gen-01.csprojAssemblyReference.cache
