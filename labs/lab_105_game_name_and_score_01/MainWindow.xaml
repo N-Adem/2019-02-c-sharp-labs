@@ -5,10 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:lab_105_game_name_and_score_01"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Background="LightSeaGreen" FontSize="20">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>   
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
@@ -24,13 +25,14 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <Button x:Name="SaveFirstName" Background="Aquamarine" Grid.Column="1" Grid.Row="1" Content="Save First Name" />
-        <TextBox x:Name="FirstNameBox" Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="2" Background="BlanchedAlmond"/>
-
-        <Button x:Name="SaveLastName" Background="DarkBlue" Grid.Column="1" Grid.Row="2" Content="Save Last Name" Foreground="White"/>
-        <TextBox x:Name="LastNameBox" Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="2" Background="DarkOrange"/>
+        <Button x:Name="SaveButton" Background="LightCyan" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="7" Content="Save Details" Click="SaveButton_Click" />
+        <TextBox x:Name="NameBox" Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="3" Background="Cornsilk"/>
+        <TextBox x:Name="Level" Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="2" Background="Cornsilk"/>
+        <TextBox x:Name="Score" Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="2" Background="Cornsilk"/>
+       
 
     </Grid>
 </Window>
