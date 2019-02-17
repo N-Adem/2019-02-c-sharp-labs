@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_10_entity", "lab_10_ent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_011_Entity_GUI", "Lab_011_Entity_GUI\Lab_011_Entity_GUI.csproj", "{0285B8E7-33C9-42F9-BBA5-6A701964CD57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_101_speedTyping_02", "lab_101_speedTyping_02\lab_101_speedTyping_02.csproj", "{D8BC34C6-75DC-4657-B49E-92D09DE3C927}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{0285B8E7-33C9-42F9-BBA5-6A701964CD57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0285B8E7-33C9-42F9-BBA5-6A701964CD57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0285B8E7-33C9-42F9-BBA5-6A701964CD57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8BC34C6-75DC-4657-B49E-92D09DE3C927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8BC34C6-75DC-4657-B49E-92D09DE3C927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8BC34C6-75DC-4657-B49E-92D09DE3C927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8BC34C6-75DC-4657-B49E-92D09DE3C927}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
