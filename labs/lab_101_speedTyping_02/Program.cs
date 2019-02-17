@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 using System.Diagnostics;
 
-namespace lab_101_speedTyping_01
+namespace lab_101_speedTyping_02
 {
     class Program
     {
@@ -18,13 +19,14 @@ namespace lab_101_speedTyping_01
             Stopwatch watch = new Stopwatch();
             // Game Intro 
             Console.WriteLine("Would you like to play the ordered or unordered (1/2)");
-            var choice = Console.ReadKey().KeyChar;
-            if (choice == 1)
+            char choice = Console.ReadKey().KeyChar;
+            if (choice == '1')
             {
                 isRand = true;
+                isOrdered = false;
                 Console.Write("you picked un ordered\n");
             }
-            if (choice == 2)
+            if (choice == '2')
             {
                 isOrdered = true;
                 Console.Write("you picked ordered\n");
@@ -39,14 +41,14 @@ namespace lab_101_speedTyping_01
                 isReady = true;
                 while (watch.Elapsed.TotalSeconds < 10)
                 {
-                    if(isRand == true)
+                    if (isRand == true)
                     {
                         GamePlay.SpeedTypeRand();
                     }
                     if (isOrdered == true)
                     {
                         GamePlay.SpeedTypeOrdered();
-                    }                   
+                    }
                     //Console.WriteLine("game active");
                 }
                 isReady = false;
@@ -54,6 +56,14 @@ namespace lab_101_speedTyping_01
             if (isReady == false)
             {
                 Console.WriteLine($"**GAMEOVER** \nTotal time taken is = {watch.Elapsed.TotalSeconds.ToString()}");
+                if (watch.Elapsed.TotalSeconds >= 11)
+                {
+                    Console.WriteLine("Took you more than 10 seconds you lose");
+                }
+                else
+                {
+                    Console.WriteLine("\nCongratulations you played well");
+                }
             }
             Console.Read();
         }
@@ -65,26 +75,27 @@ namespace lab_101_speedTyping_01
 
         public static void SpeedTypeRand()
         {
-            typed += Console.ReadKey().KeyChar;
-            Console.WriteLine("input here please");
+            Console.WriteLine();
+            typed += Console.ReadKey().KeyChar;            
         }
         public static void SpeedTypeOrdered()
         {
             string val = "";
             string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
             char[] alphaLetters = alphabet.ToCharArray();
-            for (int i = 0; i < alphaLetters.Length;i++)
+            for (int i = 0; i < alphaLetters.Length; i++)
             {
                 val += alphaLetters[i].ToString();
                 typed += Console.ReadKey().KeyChar;
-                //Console.WriteLine(val);
+            
                 if (typed == val)
                 {
-                    Console.WriteLine("you may continue");
+                    Console.WriteLine(" = you may continue");
                 }
                 else
                 {
-                    Console.WriteLine("YOU ENTERED THE WRONG LETTER");
+                    Console.WriteLine("YOU ENTERED THE WRONG LETTER = " + val);
+                    val += alphaLetters[i].ToString();
                 }
 
                 //Console.WriteLine(alphaLetters[3]);
