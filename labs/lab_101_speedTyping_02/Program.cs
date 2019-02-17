@@ -31,7 +31,7 @@ namespace lab_101_speedTyping_02
                 isOrdered = true;
                 Console.Write("you picked ordered\n");
             }
-            Console.WriteLine("\nWould you like to start the typing game  (y/n)\n");
+            Console.WriteLine("\nWould you like to start the typing game  (Y/N)\n");
             Console.WriteLine("-----------------------------------------");
             char response = Console.ReadKey().KeyChar;
             if (response == 'Y')
