@@ -8,9 +8,13 @@ over the duration of my C# course.
 
 ## List Of Labs And Their Status
 01 Hello World
+
 02 OOP
+
 03 OOP Parent Child
+
 04 Array with Test
+
 06 WPF Basic Screen
 07 Console List Files Folders with Exception
 08 Files Folders Read Write Create
