@@ -1,0 +1,7 @@
+C:\2019-02-c-sharp-labs\labs\lab_12_oop_revision\bin\Debug\lab_12_oop_revision.exe.config
+C:\2019-02-c-sharp-labs\labs\lab_12_oop_revision\bin\Debug\lab_12_oop_revision.exe
+C:\2019-02-c-sharp-labs\labs\lab_12_oop_revision\bin\Debug\lab_12_oop_revision.pdb
+C:\2019-02-c-sharp-labs\labs\lab_12_oop_revision\obj\Debug\lab_12_oop_revision.csprojAssemblyReference.cache
+C:\2019-02-c-sharp-labs\labs\lab_12_oop_revision\obj\Debug\lab_12_oop_revision.csproj.CoreCompileInputs.cache
+C:\2019-02-c-sharp-labs\labs\lab_12_oop_revision\obj\Debug\lab_12_oop_revision.exe
+C:\2019-02-c-sharp-labs\labs\lab_12_oop_revision\obj\Debug\lab_12_oop_revision.pdb

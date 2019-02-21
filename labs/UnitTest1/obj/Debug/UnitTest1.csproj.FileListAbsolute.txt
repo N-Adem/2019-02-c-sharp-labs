@@ -1,2 +1,3 @@
 C:\labs\UnitTest1\obj\Debug\UnitTest1.csprojAssemblyReference.cache
 C:\labs\UnitTest1\obj\Debug\UnitTest1.csproj.CoreCompileInputs.cache
+C:\2019-02-c-sharp-labs\labs\UnitTest1\obj\Debug\UnitTest1.csproj.CoreCompileInputs.cache

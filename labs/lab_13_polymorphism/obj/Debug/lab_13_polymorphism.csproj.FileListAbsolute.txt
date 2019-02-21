@@ -1,0 +1,6 @@
+C:\2019-02-c-sharp-labs\labs\lab_13_polymorphism\bin\Debug\lab_13_polymorphism.exe.config
+C:\2019-02-c-sharp-labs\labs\lab_13_polymorphism\bin\Debug\lab_13_polymorphism.exe
+C:\2019-02-c-sharp-labs\labs\lab_13_polymorphism\bin\Debug\lab_13_polymorphism.pdb
+C:\2019-02-c-sharp-labs\labs\lab_13_polymorphism\obj\Debug\lab_13_polymorphism.csproj.CoreCompileInputs.cache
+C:\2019-02-c-sharp-labs\labs\lab_13_polymorphism\obj\Debug\lab_13_polymorphism.exe
+C:\2019-02-c-sharp-labs\labs\lab_13_polymorphism\obj\Debug\lab_13_polymorphism.pdb

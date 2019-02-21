@@ -97,7 +97,6 @@ namespace lab_101_speedTyping_02
                     Console.WriteLine("YOU ENTERED THE WRONG LETTER = " + val);
                     val += alphaLetters[i].ToString();
                 }
-
                 //Console.WriteLine(alphaLetters[3]);
             }
         }

@@ -50,27 +50,27 @@ namespace labs_104_array_list_queue_stack_dict_01
     }
     class Number
     {
-        List<int> addOneList = new List<int>();
-        Stack<int> addOneStack = new Stack<int>();
-        Queue<int> addQueue = new Queue<int>();
+        static List<int> addOneList = new List<int>();
+       static  Stack<int> addOneStack = new Stack<int>();
+       static  Queue<int> addQueue = new Queue<int>();
         public static void Result()
         {
             int[] arrNumber = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
 
-            foreach (var j in addOneList)
-            {
-                addOneList.Add(i + 1);
-            }
-            foreach (var k in arrNumber)
-            {
-                addOneStack.Push(i + 1);
-                // Console.WriteLine(addOneStack.Count);
-            }
-            for (int l = 0; l < 10; l++)
-            {
-                addQueue.Enqueue(addOneStack.Pop() + 1);
-            }
+            //foreach (var j in addOneList)
+            //{
+            //    addOneList.Add(i + 1);
+            //}
+            //foreach (var k in arrNumber)
+            //{
+            //    addOneStack.Push(i + 1);
+            //    // Console.WriteLine(addOneStack.Count);
+            //}
+            //for (int l = 0; l < 10; l++)
+            //{
+            //    addQueue.Enqueue(addOneStack.Pop() + 1);
+            //}
 
         }
 
